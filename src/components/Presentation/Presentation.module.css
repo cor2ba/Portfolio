@@ -1,0 +1,33 @@
+.Container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 80px;
+  color: #5b2c6f;
+  width: 100%;
+  text-align: center;
+}
+
+.Subtitle {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-family: Sans-Serif;
+  text-decoration: underline;
+}
+
+.CV {
+  font-size: 20px;
+  background-color: #5b2c6f;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+}

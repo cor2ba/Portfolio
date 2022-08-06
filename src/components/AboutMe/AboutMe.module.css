@@ -1,0 +1,27 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 95vh;
+}
+
+.Title {
+  font-size: 50px;
+  text-align: center;
+  font-family: Sans-Serif;
+}
+
+.Paragraphs {
+  font-size: 25px;
+  text-align: center;
+  width: 75%;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.MeImage {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  align-self: center;
+}
