@@ -18,6 +18,8 @@ import node from "../../images/nodejs.webp";
 import github from "../../images/GitHub.png";
 import figma from "../../images/Figma.png";
 import trello from "../../images/Trello.png";
+import sequelize from "../../images/sequelize.png";
+import materialui from "../../images/material-ui.png";
 
 const LanguagesAndTools = () => {
   let color = "LanguagesAndTools";
@@ -59,12 +61,16 @@ const LanguagesAndTools = () => {
           <h1 className={Styles.TitleTechnology}>Postgres SQL</h1>
         </div>
         <div className={Styles.Technology}>
+          <img className={Styles.Image} src={sequelize} alt="Sequelize"></img>
+          <h1 className={Styles.TitleTechnology}>Sequelize</h1>
+        </div>
+        <div className={Styles.Technology}>
           <img className={Styles.Image} src={html5} alt="HTML5"></img>
           <h1 className={Styles.TitleTechnology}>HTML5</h1>
         </div>
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={css} alt="CSS"></img>
-          <h1 className={Styles.TitleTechnology}>CSS</h1>
+          <h1 className={Styles.TitleTechnology}>CSS3</h1>
         </div>
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={sass} alt="Sass"></img>
@@ -73,6 +79,14 @@ const LanguagesAndTools = () => {
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={babel} alt="Babel"></img>
           <h1 className={Styles.TitleTechnology}>Babel</h1>
+        </div>
+        <div className={Styles.Technology}>
+          <img
+            className={Styles.Image}
+            src={materialui}
+            alt="Material Ui"
+          ></img>
+          <h1 className={Styles.TitleTechnology}>Material Ui</h1>
         </div>
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={bootstrap} alt="Bootstrap"></img>

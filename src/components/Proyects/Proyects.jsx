@@ -50,7 +50,11 @@ const Proyects = () => {
             <h1 className={Styles.InfoSubtitle}>
               SPA - Proyecto Individual Académico (SoyHenry)
             </h1>
-            <a className={Styles.Link} href="https://foodfyapp.vercel.app/">
+            <a
+              className={Styles.Link}
+              Target="_blank"
+              href="https://foodfyapp.vercel.app/"
+            >
               Deploy
             </a>
           </div>
@@ -88,6 +92,7 @@ const Proyects = () => {
             </h1>
             <a
               className={Styles.Link}
+              Target="_blank"
               href="https://github.com/SantiagoGomez1/client-HenryBank"
             >
               Repository
@@ -109,6 +114,7 @@ const Proyects = () => {
             <h1 className={Styles.InfoSubtitle}>SPA</h1>
             <a
               className={Styles.Link}
+              Target="_blank"
               href="https://github.com/cor2ba/Portfolio"
             >
               Repository

@@ -40,6 +40,8 @@
 
 .Proyect:hover a {
   color: #5b2c6f;
+  background-color: #fff;
+  border: 1px solid #5b2c6f;
 }
 
 .Title {
@@ -87,6 +89,10 @@
   text-decoration: none;
   text-align: center;
   font-size: 20px;
-  color: #000;
   width: auto;
+  background-color: #5b2c6f;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  border: 1px solid #fff;
 }
