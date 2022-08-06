@@ -9,9 +9,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 75px;
   padding: 0px 0px 40px 0px;
+  margin: 50px;
 }
 
 .Proyect {
@@ -27,21 +28,12 @@
 }
 
 .Proyect:hover {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: #000;
-  width: 350px;
-  padding: 20px;
-  border-radius: 50px;
-  border: 1px solid #fff;
-  gap: 30px;
+  transform: scale(1.05);
 }
 
-.Proyect:hover a {
-  color: #5b2c6f;
-  background-color: #fff;
-  border: 1px solid #5b2c6f;
+.Proyect:hover h1 {
+  color: #fff;
 }
 
 .Title {
@@ -60,22 +52,21 @@
 .InfoTitle {
   font-size: 30px;
   font-family: Sans-Serif;
+  color: #000;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: overline;
 }
 
 .InfoSubtitle {
   font-size: 25px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(118, 118, 118);
 }
 
 .ImageTechnology {
   width: 30px;
   height: 30px;
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 2px;
 }
 
 .ContainerImages {

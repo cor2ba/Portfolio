@@ -32,6 +32,7 @@
 
 .Technology:hover {
   background-color: #000;
+  transform: scale(1.05);
 }
 
 .Image {

@@ -13,6 +13,8 @@ import react from "../../images/react.png";
 import redux from "../../images/redux.png";
 import postgres from "../../images/Postgresql.png";
 import node from "../../images/nodejs.webp";
+import bettersplayerscabj from "../../images/bettersplayerscabj.png";
+import climaio from "../../images/clima-io.png";
 
 const Proyects = () => {
   let color = "Proyects";
@@ -25,6 +27,9 @@ const Proyects = () => {
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pi} alt="pi" />
             <h1 className={Styles.InfoTitle}>PI-RECIPES</h1>
+            <h1 className={Styles.InfoSubtitle}>
+              SPA - Individual Proyect (Soy Henry)
+            </h1>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -47,9 +52,6 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <h1 className={Styles.InfoSubtitle}>
-              SPA - Proyecto Individual Académico (SoyHenry)
-            </h1>
             <a
               className={Styles.Link}
               Target="_blank"
@@ -61,6 +63,9 @@ const Proyects = () => {
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pf} alt="pi" />
             <h1 className={Styles.InfoTitle}>PF-HENRYBANK</h1>
+            <h1 className={Styles.InfoSubtitle}>
+              App de banco - Final Proyect (Soy Henry)
+            </h1>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -87,9 +92,6 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <h1 className={Styles.InfoSubtitle}>
-              App de banco - Proyecto Final Académico (Soy Henry)
-            </h1>
             <a
               className={Styles.Link}
               Target="_blank"
@@ -99,8 +101,11 @@ const Proyects = () => {
             </a>
           </div>
           <div className={Styles.Proyect}>
-            <img className={Styles.Image} src={portfolio} alt="Portfolio" />
-            <h1 className={Styles.InfoTitle}>PORTFOLIO</h1>
+            <img className={Styles.Image} src={climaio} alt="Clima.IO" />
+            <h1 className={Styles.InfoTitle}>CLIMA.IO</h1>
+            <h1 className={Styles.InfoSubtitle}>
+              SPA - Look the weather in real time
+            </h1>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -111,7 +116,56 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <h1 className={Styles.InfoSubtitle}>SPA</h1>
+            <a
+              className={Styles.Link}
+              Target="_blank"
+              href="https://climaio.vercel.app/"
+            >
+              Deploy
+            </a>
+          </div>
+          <div className={Styles.Proyect}>
+            <img
+              className={Styles.Image}
+              src={bettersplayerscabj}
+              alt="BetterPlayersCABJ"
+            />
+            <h1 className={Styles.InfoTitle}>Better Players CABJ</h1>
+            <h1 className={Styles.InfoSubtitle}>
+              SPA - Look the better player of the CABJ history
+            </h1>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <a
+              className={Styles.Link}
+              Target="_blank"
+              href="https://better-players-cabj.vercel.app/"
+            >
+              Deploy
+            </a>
+          </div>
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={portfolio} alt="Portfolio" />
+            <h1 className={Styles.InfoTitle}>PORTFOLIO</h1>
+            <h1 className={Styles.InfoSubtitle}>SPA - Personal portfolio</h1>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
             <a
               className={Styles.Link}
               Target="_blank"
