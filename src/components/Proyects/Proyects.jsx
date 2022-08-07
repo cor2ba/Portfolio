@@ -130,10 +130,10 @@ const Proyects = () => {
               src={bettersplayerscabj}
               alt="BetterPlayersCABJ"
             />
-            <h1 className={Styles.InfoTitle}>Better Players CABJ</h1>
             <h1 className={Styles.InfoSubtitle}>
               SPA - Look the better player of the CABJ history
             </h1>
+            <h1 className={Styles.InfoTitle}>Better Players CABJ</h1>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
