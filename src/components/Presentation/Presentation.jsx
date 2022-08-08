@@ -4,7 +4,7 @@ import Styles from "./Presentation.module.css";
 const Presentation = () => {
   return (
     <div className={Styles.Container}>
-      <h1 className={Styles.Title}>Hi ✋, I´m Gabriel Cordoba.</h1>
+      <h1 className={Styles.Title}>Hi ✋, I am Gabriel Cordoba.</h1>
       <h1 className={Styles.Subtitle}>Full-Stack Developer</h1>
       <a
         className={Styles.CV}

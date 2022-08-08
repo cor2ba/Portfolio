@@ -15,12 +15,20 @@
   margin: 50px;
 }
 
+.ContainerButtons {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-self: center;
+  gap: 20px;
+}
+
 .Proyect {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #5b2c6f;
-  width: 350px;
+  background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
+  width: 330px;
   padding: 20px;
   border-radius: 50px;
   border: 1px solid #fff;
@@ -28,18 +36,20 @@
 }
 
 .Proyect:hover {
-  background-color: #000;
+  background: linear-gradient(145deg, #000 0%, #5b2c6f 100%);
   transform: scale(1.05);
 }
 
 .Proyect:hover a {
   color: #fff;
-  background-color: #000;
+  background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
   border: 1px solid #fff;
 }
 
-.Proyect:hover buttom {
+.Proyect:hover button {
   color: #fff;
+  background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
+  border: 1px solid #fff;
 }
 
 .Title {
@@ -49,21 +59,20 @@
 }
 
 .Image {
-  height: 220px;
-  width: 350px;
+  height: 210px;
+  width: 330px;
   border-radius: 50px;
   border: 1px solid #fff;
 }
 
 .ContainerInvisible {
   position: absolute;
-  height: 220px;
-  width: 350px;
+  height: 212px;
+  width: 330px;
   overflow: hidden;
   text-align: center;
   visibility: hidden;
   background-color: transparent;
-  transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
   margin: 0%;
@@ -74,18 +83,18 @@
   opacity: 1;
   visibility: visible;
   background-color: rgba(0, 0, 0, 0.647);
-  transition: all 500ms ease-out;
+  transition: all 1000ms ease-out;
 }
 .Proyect:hover > .ContainerInvisible h1 {
   color: #fff;
-  margin-top: 60px;
-  transition: all 500ms ease-out;
+  margin-top: 50px;
+  transition: all 1000ms ease-out;
 }
 
 .Proyect:hover > .ContainerInvisible p {
   color: #fff;
-  margin-top: 30px;
-  transition: all 500ms ease-out;
+  margin-top: 40px;
+  transition: all 1000ms ease-out;
 }
 
 .InfoTitle {
@@ -104,9 +113,12 @@
 }
 
 .ImageTechnology {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(253, 224, 224);
+  border-radius: 50px;
 }
 
 .ContainerImages {
@@ -121,7 +133,7 @@
   text-align: center;
   font-size: 20px;
   width: auto;
-  background-color: #5b2c6f;
+  background: linear-gradient(145deg, #000 0%, #5b2c6f 100%);
   padding: 10px;
   border-radius: 50px;
   color: #fff;

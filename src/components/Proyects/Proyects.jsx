@@ -54,20 +54,22 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://foodfyapp.vercel.app/"
-            >
-              Deploy
-            </a>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://github.com/cor2ba/PI-Recipes"
-            >
-              Repository
-            </a>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://foodfyapp.vercel.app/"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/PI-Recipes"
+              >
+                Repository
+              </a>
+            </div>
           </div>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pf} alt="pi" />
@@ -103,21 +105,23 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <a
-              className={Styles.Link}
-              // Target="_blank"
-              // href="https://github.com/SantiagoGomez1/client-HenryBank"
-              onClick={() => alert("Coming soon")}
-            >
-              Deploy
-            </a>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://github.com/SantiagoGomez1/client-HenryBank"
-            >
-              Repository
-            </a>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                // Target="_blank"
+                // href="https://github.com/SantiagoGomez1/client-HenryBank"
+                onClick={() => alert("Coming soon")}
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/SantiagoGomez1/client-HenryBank"
+              >
+                Repository
+              </a>
+            </div>
           </div>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={climaio} alt="Clima.IO" />
@@ -137,20 +141,22 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://climaio.vercel.app/"
-            >
-              Deploy
-            </a>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://github.com/cor2ba/Clima.io"
-            >
-              Repository
-            </a>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://climaio.vercel.app/"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Clima.io"
+              >
+                Repository
+              </a>
+            </div>
           </div>
           <div className={Styles.Proyect}>
             <img
@@ -174,20 +180,22 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://better-players-cabj.vercel.app/"
-            >
-              Deploy
-            </a>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://github.com/cor2ba/BetterPlayersCABJ"
-            >
-              Repository
-            </a>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://better-players-cabj.vercel.app/"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/BetterPlayersCABJ"
+              >
+                Repository
+              </a>
+            </div>
           </div>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={portfolio} alt="Portfolio" />
@@ -205,20 +213,22 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://github.com/cor2ba/Portfolio"
-            >
-              Deploy
-            </a>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://github.com/cor2ba/Portfolio"
-            >
-              Repository
-            </a>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Portfolio"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Portfolio"
+              >
+                Repository
+              </a>
+            </div>
           </div>
         </div>
       </div>
