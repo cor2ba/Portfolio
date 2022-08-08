@@ -16,7 +16,7 @@ const Contact = () => {
         <a
           className={Styles.Link}
           Target="_blank"
-          href="https://www.linkedin.com/in/gabriel-cordoba/"
+          href="mailto:cordobagabrielignacio@gmail.com"
         >
           <div className={Styles.Contact}>
             <img className={Styles.Image} src={email} alt="E-Mail" />
