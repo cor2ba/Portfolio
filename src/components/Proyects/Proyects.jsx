@@ -26,10 +26,12 @@ const Proyects = () => {
         <div className={Styles.ContainerProyects}>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pi} alt="pi" />
-            <h1 className={Styles.InfoTitle}>PI-RECIPES</h1>
-            <h1 className={Styles.InfoSubtitle}>
-              SPA - Individual Proyect (Soy Henry)
-            </h1>
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>PI-RECIPES</h1>
+              <p className={Styles.InfoSubtitle}>
+                SPA - Individual Proyect (Soy Henry).
+              </p>
+            </div>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -59,13 +61,22 @@ const Proyects = () => {
             >
               Deploy
             </a>
+            <a
+              className={Styles.Link}
+              Target="_blank"
+              href="https://github.com/cor2ba/PI-Recipes"
+            >
+              Repository
+            </a>
           </div>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pf} alt="pi" />
-            <h1 className={Styles.InfoTitle}>PF-HENRYBANK</h1>
-            <h1 className={Styles.InfoSubtitle}>
-              App de banco - Final Proyect (Soy Henry)
-            </h1>
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>PF-HENRYBANK</h1>
+              <p className={Styles.InfoSubtitle}>
+                App de banco - Final Proyect (Soy Henry).
+              </p>
+            </div>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -94,6 +105,14 @@ const Proyects = () => {
             </div>
             <a
               className={Styles.Link}
+              // Target="_blank"
+              // href="https://github.com/SantiagoGomez1/client-HenryBank"
+              onClick={() => alert("Coming soon")}
+            >
+              Deploy
+            </a>
+            <a
+              className={Styles.Link}
               Target="_blank"
               href="https://github.com/SantiagoGomez1/client-HenryBank"
             >
@@ -102,10 +121,12 @@ const Proyects = () => {
           </div>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={climaio} alt="Clima.IO" />
-            <h1 className={Styles.InfoTitle}>CLIMA.IO</h1>
-            <h1 className={Styles.InfoSubtitle}>
-              SPA - Look the weather in real time
-            </h1>
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>CLIMA.IO</h1>
+              <p className={Styles.InfoSubtitle}>
+                SPA - Look the weather in real time.
+              </p>
+            </div>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -123,6 +144,13 @@ const Proyects = () => {
             >
               Deploy
             </a>
+            <a
+              className={Styles.Link}
+              Target="_blank"
+              href="https://github.com/cor2ba/Clima.io"
+            >
+              Repository
+            </a>
           </div>
           <div className={Styles.Proyect}>
             <img
@@ -130,10 +158,12 @@ const Proyects = () => {
               src={bettersplayerscabj}
               alt="BetterPlayersCABJ"
             />
-            <h1 className={Styles.InfoSubtitle}>
-              SPA - Look the better player of the CABJ history
-            </h1>
-            <h1 className={Styles.InfoTitle}>Better Players CABJ</h1>
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>C.A.B.J.</h1>
+              <p className={Styles.InfoSubtitle}>
+                SPA - Look the better player of the CABJ history.
+              </p>
+            </div>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -151,11 +181,20 @@ const Proyects = () => {
             >
               Deploy
             </a>
+            <a
+              className={Styles.Link}
+              Target="_blank"
+              href="https://github.com/cor2ba/BetterPlayersCABJ"
+            >
+              Repository
+            </a>
           </div>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={portfolio} alt="Portfolio" />
-            <h1 className={Styles.InfoTitle}>PORTFOLIO</h1>
-            <h1 className={Styles.InfoSubtitle}>SPA - Personal portfolio</h1>
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>PORTFOLIO</h1>
+              <p className={Styles.InfoSubtitle}>SPA - Personal portfolio.</p>
+            </div>
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
@@ -166,6 +205,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
+            <a
+              className={Styles.Link}
+              Target="_blank"
+              href="https://github.com/cor2ba/Portfolio"
+            >
+              Deploy
+            </a>
             <a
               className={Styles.Link}
               Target="_blank"
