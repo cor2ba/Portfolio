@@ -62,7 +62,7 @@
   color: #5b2c6f;
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .Container {
     display: none;
   }
