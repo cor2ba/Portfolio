@@ -92,17 +92,21 @@
   }
 
   .MenuImg {
+    display: flex;
     position: absolute;
+    height: 5vh;
     right: 0;
-    margin: 5px 5px 0px 0px;
+    padding-right: 0;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
     z-index: 2;
   }
 
   .Img {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     background-color: #5b2c6f;
-    padding: 5px;
     border-radius: 50px;
   }
 
