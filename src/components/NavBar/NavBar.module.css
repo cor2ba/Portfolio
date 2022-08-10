@@ -87,6 +87,7 @@
     text-align: center;
     align-items: center;
     clip-path: circle(0 at center);
+    z-index: 1;
     transition: clip-path 1s ease-in-out;
   }
 
@@ -94,6 +95,7 @@
     position: absolute;
     right: 0;
     margin: 5px 5px 0px 0px;
+    z-index: 2;
   }
 
   .Img {
