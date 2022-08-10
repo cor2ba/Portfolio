@@ -69,7 +69,9 @@
 
   .ContainerResponsive {
     display: flex;
-    margin-bottom: 100px;
+    min-height: 5vh;
+    box-shadow: 0 0 5px #5b2c6f;
+    background-color: transparent;
   }
 
   .Menu {
@@ -91,12 +93,12 @@
   .MenuImg {
     position: absolute;
     right: 0;
-    margin: 20px 20px 0px 0px;
+    margin: 5px 5px 0px 0px;
   }
 
   .Img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: #5b2c6f;
     padding: 5px;
     border-radius: 50px;
