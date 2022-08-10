@@ -15,6 +15,10 @@
   text-decoration: none;
 }
 
+.ContainerResponsive {
+  display: none;
+}
+
 .NavsText {
   font-size: 17px;
   color: #fff;
@@ -57,4 +61,58 @@
   font-size: 18px;
   color: #5b2c6f;
   --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 700px) {
+  .Container {
+    display: none;
+  }
+
+  .ContainerResponsive {
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  .Menu {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    background-color: #0a000e;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    clip-path: circle(0 at center);
+    transition: clip-path 1s ease-in-out;
+  }
+
+  .MenuImg {
+    position: absolute;
+    right: 0;
+    margin: 20px 20px 0px 0px;
+  }
+
+  .Img {
+    width: 40px;
+    height: 40px;
+    background-color: #5b2c6f;
+    padding: 5px;
+    border-radius: 50px;
+  }
+
+  .NavInput {
+    display: none;
+  }
+
+  .NavInput:checked + .Menu {
+    clip-path: circle(100% at center);
+  }
+
+  .NavsResponsive {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+  }
 }
