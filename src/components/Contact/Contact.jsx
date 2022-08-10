@@ -20,7 +20,7 @@ const Contact = () => {
         >
           <div className={Styles.Contact}>
             <img className={Styles.Image} src={email} alt="E-Mail" />
-            <h1>E-Mail</h1>
+            <h1 className={Styles.Subtitle}>E-Mail</h1>
           </div>
         </a>
         <a
@@ -30,7 +30,7 @@ const Contact = () => {
         >
           <div className={Styles.Contact}>
             <img className={Styles.Image} src={whatsapp} alt="WhatsApp" />
-            <h1>WhatsApp</h1>
+            <h1 className={Styles.Subtitle}>WhatsApp</h1>
           </div>
         </a>
         <a
@@ -40,7 +40,7 @@ const Contact = () => {
         >
           <div className={Styles.Contact}>
             <img className={Styles.Image} src={linkedin} alt="Linkedin" />
-            <h1>Linkedin</h1>
+            <h1 className={Styles.Subtitle}>Linkedin</h1>
           </div>
         </a>
         <a
@@ -50,7 +50,7 @@ const Contact = () => {
         >
           <div className={Styles.Contact}>
             <img className={Styles.Image} src={github} alt="GitHub" />
-            <h1>GitHub</h1>
+            <h1 className={Styles.Subtitle}>GitHub</h1>
           </div>
         </a>
       </div>
