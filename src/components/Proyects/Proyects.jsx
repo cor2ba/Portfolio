@@ -21,7 +21,7 @@ const Proyects = () => {
   return (
     <div>
       <NavBar color={color} />
-      <h1 className={Styles.Title}>Proyects</h1>
+      <h1 className={Styles.Title}>Projects</h1>
       <div className={Styles.Container}>
         <div className={Styles.ContainerProyects}>
           <div className={Styles.Proyect}>
@@ -106,14 +106,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
-                // Target="_blank"
-                // href="https://github.com/SantiagoGomez1/client-HenryBank"
-                onClick={() => alert("Coming soon")}
+                Target="_blank"
+                href="https://www.youtube.com/watch?v=Dzi2UyKrlMo&ab_channel=HenryBank"
               >
-                Deploy
-              </button>
+                Video
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"

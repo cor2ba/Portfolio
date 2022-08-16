@@ -35,9 +35,9 @@ const NavBar = ({ color }) => {
           </Link>
           <Link className={Styles.Link} to="/Proyects">
             {color === "Proyects" ? (
-              <h1 className={Styles.NavsTextClicked}>PROYECTS</h1>
+              <h1 className={Styles.NavsTextClicked}>PROJECTS</h1>
             ) : (
-              <h1 className={Styles.NavsText}>PROYECTS</h1>
+              <h1 className={Styles.NavsText}>PROJECTS</h1>
             )}
           </Link>
           <Link className={Styles.Link} to="/Contact">
