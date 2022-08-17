@@ -17,7 +17,7 @@
   text-align: center;
   background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
   padding: 20px;
-  border-radius: 50px;
+  border-radius: 20px;
   width: 200px;
   height: 270px;
   cursor: pointer;
@@ -39,7 +39,7 @@
   height: 175px;
   width: 175px;
   background-color: rgb(219, 219, 219);
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 10px;
 }
 

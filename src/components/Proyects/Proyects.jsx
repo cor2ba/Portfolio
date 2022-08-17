@@ -15,6 +15,10 @@ import postgres from "../../images/Postgresql.png";
 import node from "../../images/nodejs.webp";
 import bettersplayerscabj from "../../images/bettersplayerscabj.png";
 import climaio from "../../images/clima-io.png";
+import TodoList from "../../images/TodoList.png";
+import angular from "../../images/angular.png";
+import mongodb from "../../images/mongodb.png";
+import mongoose from "../../images/mongoose.jpg";
 
 const Proyects = () => {
   let color = "Proyects";
@@ -123,12 +127,10 @@ const Proyects = () => {
             </div>
           </div>
           <div className={Styles.Proyect}>
-            <img className={Styles.Image} src={climaio} alt="Clima.IO" />
+            <img className={Styles.Image} src={TodoList} alt="ToDoList" />
             <div className={Styles.ContainerInvisible}>
-              <h1 className={Styles.InfoTitle}>CLIMA.IO</h1>
-              <p className={Styles.InfoSubtitle}>
-                SPA - Look the weather in real time.
-              </p>
+              <h1 className={Styles.InfoTitle}>NEW</h1>
+              <p className={Styles.InfoSubtitle}>SPA - ToDo List.</p>
             </div>
             <div className={Styles.ContainerImages}>
               <img
@@ -136,22 +138,42 @@ const Proyects = () => {
                 src={javascript}
                 alt="JavaScript"
               />
-              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img
+                className={Styles.ImageTechnology}
+                src={angular}
+                alt="Angular"
+              />
+              <img
+                className={Styles.ImageTechnology}
+                src={mongodb}
+                alt="MongoDB"
+              />
+              <img
+                className={Styles.ImageTechnology}
+                src={express}
+                alt="Express"
+              />
+              <img
+                className={Styles.ImageTechnology}
+                src={mongoose}
+                alt="Mongoose"
+              />
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <a
+              <button
                 className={Styles.Link}
-                Target="_blank"
-                href="https://climaio.vercel.app/"
+                onClick={() => alert("Cooming soon")}
+                // Target="_blank"
+                // href="https://better-players-cabj.vercel.app/"
               >
                 Deploy
-              </a>
+              </button>
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://github.com/cor2ba/Clima.io"
+                href="https://github.com/cor2ba/ToDoList"
               >
                 Repository
               </a>
@@ -196,6 +218,42 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={climaio} alt="Clima.IO" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>CLIMA.IO</h1>
+              <p className={Styles.InfoSubtitle}>
+                SPA - Look the weather in real time.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://climaio.vercel.app/"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Clima.io"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={portfolio} alt="Portfolio" />
             <div className={Styles.ContainerInvisible}>

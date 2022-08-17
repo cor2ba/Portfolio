@@ -20,6 +20,9 @@ import figma from "../../images/Figma.png";
 import trello from "../../images/Trello.png";
 import sequelize from "../../images/sequelize.png";
 import materialui from "../../images/material-ui.png";
+import angular from "../../images/angular.png";
+import mongodb from "../../images/mongodb.png";
+import mongoose from "../../images/mongoose.jpg";
 
 const LanguagesAndTools = () => {
   let color = "LanguagesAndTools";
@@ -47,6 +50,18 @@ const LanguagesAndTools = () => {
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={redux} alt="Redux"></img>
           <h1 className={Styles.TitleTechnology}>Redux</h1>
+        </div>
+        <div className={Styles.Technology}>
+          <img className={Styles.Image} src={angular} alt="Angular"></img>
+          <h1 className={Styles.TitleTechnology}>Angular</h1>
+        </div>
+        <div className={Styles.Technology}>
+          <img className={Styles.Image} src={mongodb} alt="MongoDB"></img>
+          <h1 className={Styles.TitleTechnology}>MongoDB</h1>
+        </div>
+        <div className={Styles.Technology}>
+          <img className={Styles.Image} src={mongoose} alt="Mongoose"></img>
+          <h1 className={Styles.TitleTechnology}>Mongoose</h1>
         </div>
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={node} alt="Node"></img>
