@@ -10,11 +10,11 @@ const AboutMe = () => {
       <NavBar color={color} />
       <div className={Styles.Container}>
         <h1 className={Styles.Title}>About Me</h1>
-        <img className={Styles.MeImage} src={me} alt="me"></img>
         <p className={Styles.Paragraphs}>
           I live in Argentina, Buenos Aires 💙🤍💙. I graduated of Full-Stack
-          developer web in Henry Bootcamp 💛🎓.
+          developer web in Henry Bootcamp 💻.
         </p>
+
         <p className={Styles.Paragraphs}>
           I´m autodidact 🤓, I think the most valuable thing is time and I don't
           like to waste it, what makes me proactive 🤖, I like team work and
@@ -29,6 +29,13 @@ const AboutMe = () => {
           Counter-Strike or League of Legends 🎮 and in my free times play
           Bascketball or Football ⚽🏀.
         </p>
+        <a
+          className={Styles.Certificate}
+          Target="_blank"
+          href="https://certificates.soyhenry.com/cert?id=d8d54cb0-1a66-4aa5-9e23-61d889125069"
+        >
+           💛 LOOK MY HENRY CERTIFICATE 🎓
+        </a>
       </div>
     </div>
   );
