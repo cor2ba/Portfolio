@@ -19,6 +19,7 @@ import TodoList from "../../images/TodoList.png";
 import angular from "../../images/angular.png";
 import mongodb from "../../images/mongodb.png";
 import mongoose from "../../images/mongoose.jpg";
+import typescript from "../../images/Typescript_logo_2020.svg.png"
 
 const Proyects = () => {
   let color = "Proyects";
@@ -135,8 +136,8 @@ const Proyects = () => {
             <div className={Styles.ContainerImages}>
               <img
                 className={Styles.ImageTechnology}
-                src={javascript}
-                alt="JavaScript"
+                src={typescript}
+                alt="TypeScript"
               />
               <img
                 className={Styles.ImageTechnology}

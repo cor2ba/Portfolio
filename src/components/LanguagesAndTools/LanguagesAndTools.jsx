@@ -23,6 +23,7 @@ import materialui from "../../images/material-ui.png";
 import angular from "../../images/angular.png";
 import mongodb from "../../images/mongodb.png";
 import mongoose from "../../images/mongoose.jpg";
+import typescript from "../../images/Typescript_logo_2020.svg.png"
 
 const LanguagesAndTools = () => {
   let color = "LanguagesAndTools";
@@ -34,6 +35,10 @@ const LanguagesAndTools = () => {
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={javascript} alt="Javascript"></img>
           <h1 className={Styles.TitleTechnology}>JavaScript</h1>
+        </div>
+        <div className={Styles.Technology}>
+          <img className={Styles.Image} src={typescript} alt="TypeScript"></img>
+          <h1 className={Styles.TitleTechnology}>TypeScript</h1>
         </div>
         <div className={Styles.Technology}>
           <img

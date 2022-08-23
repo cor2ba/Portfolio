@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import Styles from "./AboutMe.module.css";
-import me from "../../images/gabriel.jpg";
 
 const AboutMe = () => {
   let color = "AboutMe";

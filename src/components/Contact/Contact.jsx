@@ -3,7 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import Styles from "./Contact.module.css";
 import whatsapp from "../../images/whatsapp.png";
 import linkedin from "../../images/LinkedIn.png";
-import github from "../../images/github_PNG83.png";
+import github from "../../images/25231.png";
 import email from "../../images/gmail.png";
 
 const Contact = () => {

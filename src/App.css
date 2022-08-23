@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #0a000e;
+  background: linear-gradient(to right, #0a000e, #1b0025);
   max-height: 100vh;
   max-width: 100vw;
   color: #fff;
