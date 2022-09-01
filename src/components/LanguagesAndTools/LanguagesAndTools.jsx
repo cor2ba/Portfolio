@@ -85,7 +85,7 @@ const LanguagesAndTools = () => {
           <h1 className={Styles.TitleTechnology}>Sequelize</h1>
         </div>
         <div className={Styles.Technology}>
-          <img className={Styles.Image} src={html5} alt="HTML5"></img>
+          <img className={Styles.Image} src={html5} alt="HTML"></img>
           <h1 className={Styles.TitleTechnology}>HTML5</h1>
         </div>
         <div className={Styles.Technology}>
@@ -104,9 +104,9 @@ const LanguagesAndTools = () => {
           <img
             className={Styles.Image}
             src={materialui}
-            alt="Material Ui"
+            alt="Material UI"
           ></img>
-          <h1 className={Styles.TitleTechnology}>Material Ui</h1>
+          <h1 className={Styles.TitleTechnology}>Material UI</h1>
         </div>
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={bootstrap} alt="Bootstrap"></img>
