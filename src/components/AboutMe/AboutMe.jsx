@@ -17,7 +17,7 @@ const AboutMe = () => {
         <p className={Styles.Paragraphs}>
           I´m autodidact 🤓, I think the most valuable thing is time and I don't
           like to waste it, what makes me proactive 🤖, I like team work and
-          create a good work environment with colleagues ✔.
+          create a good work environment with colleagues 🤝🏾.
         </p>
         <p className={Styles.Paragraphs}>
           I am currently looking for a job 🧐, I would like a job where I can
