@@ -40,7 +40,7 @@ const Contact = () => {
         >
           <div className={Styles.Contact}>
             <img className={Styles.Image} src={linkedin} alt="Linkedin" />
-            <h1 className={Styles.Subtitle}>Linkedin</h1>
+            <h1 className={Styles.Subtitle}>LinkedIn</h1>
           </div>
         </a>
         <a
