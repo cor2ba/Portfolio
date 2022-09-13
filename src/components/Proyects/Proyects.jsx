@@ -257,40 +257,6 @@ const Proyects = () => {
           </div>
 
           <div className={Styles.Proyect}>
-            <img className={Styles.Image} src={portfolio} alt="Portfolio" />
-            <div className={Styles.ContainerInvisible}>
-              <h1 className={Styles.InfoTitle}>PORTFOLIO</h1>
-              <p className={Styles.InfoSubtitle}>SPA - Personal portfolio.</p>
-            </div>
-            <div className={Styles.ContainerImages}>
-              <img
-                className={Styles.ImageTechnology}
-                src={javascript}
-                alt="JavaScript"
-              />
-              <img className={Styles.ImageTechnology} src={react} alt="React" />
-              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
-              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
-            </div>
-            <div className={Styles.ContainerButtons}>
-              <a
-                className={Styles.Link}
-                Target="_blank"
-                href="https://github.com/cor2ba/Portfolio"
-              >
-                Deploy
-              </a>
-              <a
-                className={Styles.Link}
-                Target="_blank"
-                href="https://github.com/cor2ba/Portfolio"
-              >
-                Repository
-              </a>
-            </div>
-          </div>
-
-          <div className={Styles.Proyect}>
             <img
               className={Styles.Image}
               src={vajillaselian}
@@ -322,6 +288,40 @@ const Proyects = () => {
                 className={Styles.Link}
                 Target="_blank"
                 href="https://github.com/cor2ba/Vajillas-Elian"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={portfolio} alt="Portfolio" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>PORTFOLIO</h1>
+              <p className={Styles.InfoSubtitle}>SPA - Personal portfolio.</p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Portfolio"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Portfolio"
               >
                 Repository
               </a>
