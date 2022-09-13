@@ -4,7 +4,7 @@ import Styles from "./Proyects.module.css";
 import pi from "../../images/PI-RECIPES.png";
 import pf from "../../images/HenryBankBackground.png";
 import portfolio from "../../images/portfolio.png";
-import vajillaselian from "../images/vajillaselian.png";
+import vajillaselian from "../../images/vajillaselian.png";
 import css from "../../images/css.webp";
 import express from "../../images/express.svg";
 import html5 from "../../images/HTML5.png";
@@ -255,7 +255,6 @@ const Proyects = () => {
               </a>
             </div>
           </div>
-
           <div className={Styles.Proyect}>
             <img
               className={Styles.Image}
@@ -293,7 +292,6 @@ const Proyects = () => {
               </a>
             </div>
           </div>
-
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={portfolio} alt="Portfolio" />
             <div className={Styles.ContainerInvisible}>
