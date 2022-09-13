@@ -4,6 +4,7 @@ import Styles from "./Proyects.module.css";
 import pi from "../../images/PI-RECIPES.png";
 import pf from "../../images/HenryBankBackground.png";
 import portfolio from "../../images/portfolio.png";
+import vajillaselian from "../images/vajillaselian.png";
 import css from "../../images/css.webp";
 import express from "../../images/express.svg";
 import html5 from "../../images/HTML5.png";
@@ -288,39 +289,43 @@ const Proyects = () => {
               </a>
             </div>
           </div>
-        </div>
 
-        <div className={Styles.Proyect}>
-          <img className={Styles.Image} src={portfolio} alt="Portfolio" />
-          <div className={Styles.ContainerInvisible}>
-            <h1 className={Styles.InfoTitle}>Vajillas Elian</h1>
-            <p className={Styles.InfoSubtitle}>SPA - Crockery shop.</p>
-          </div>
-          <div className={Styles.ContainerImages}>
+          <div className={Styles.Proyect}>
             <img
-              className={Styles.ImageTechnology}
-              src={javascript}
-              alt="JavaScript"
+              className={Styles.Image}
+              src={vajillaselian}
+              alt="Vajillas Elian"
             />
-            <img className={Styles.ImageTechnology} src={react} alt="React" />
-            <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
-            <img className={Styles.ImageTechnology} src={css} alt="CSS" />
-          </div>
-          <div className={Styles.ContainerButtons}>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://gabrielcordoba.vercel.app/"
-            >
-              Deploy
-            </a>
-            <a
-              className={Styles.Link}
-              Target="_blank"
-              href="https://github.com/cor2ba/Vajillas-Elian"
-            >
-              Repository
-            </a>
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Vajillas Elian</h1>
+              <p className={Styles.InfoSubtitle}>SPA - Crockery shop.</p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://gabrielcordoba.vercel.app/"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Vajillas-Elian"
+              >
+                Repository
+              </a>
+            </div>
           </div>
         </div>
       </div>
