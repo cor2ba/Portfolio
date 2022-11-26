@@ -21,6 +21,11 @@ import angular from "../../images/angular.png";
 import mongodb from "../../images/mongodb.png";
 import mongoose from "../../images/mongoose.jpg";
 import typescript from "../../images/Typescript_logo_2020.svg.png";
+import mapbox from "../../images/mapbox.svg";
+import storybook from "../../images/storybook.png";
+import components from "../../images/components.png";
+import mapify from "../../images/mapify.png";
+import calendar from "../../images/calendar.png";
 
 const Proyects = () => {
   let color = "Proyects";
@@ -31,11 +36,136 @@ const Proyects = () => {
       <div className={Styles.Container}>
         <div className={Styles.ContainerProyects}>
           <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={calendar} alt="Calendar" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Calendar</h1>
+              <p className={Styles.InfoSubtitle}>
+                PWA - Calendario con recordatorios.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={typescript}
+                alt="TypeScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+              <img
+                className={Styles.ImageTechnology}
+                src={mongodb}
+                alt="MongoDB"
+              />
+              <img
+                className={Styles.ImageTechnology}
+                src={mongoose}
+                alt="Mongoose"
+              />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/PWA-Calendar"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/PWA-Calendar"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={mapify} alt="Mapify" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Mapify</h1>
+              <p className={Styles.InfoSubtitle}>
+                App de geolocalización, rutas y destinos.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={typescript}
+                alt="TypeScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+              <img
+                className={Styles.ImageTechnology}
+                src={mapbox}
+                alt="MapBox"
+              />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://strong-heliotrope-4c8847.netlify.app/"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Mapify"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={components} alt="Components" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Components</h1>
+              <p className={Styles.InfoSubtitle}>
+                Libreria de componentes con Storybook.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={typescript}
+                alt="TypeScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+              <img
+                className={Styles.ImageTechnology}
+                src={storybook}
+                alt="Storybook"
+              />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://cor2ba.github.io/Storybook-Components/?path=/story/ui-mylabel--basic"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Storybook-Components"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+          <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pi} alt="pi" />
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>PI-RECIPES</h1>
               <p className={Styles.InfoSubtitle}>
-                SPA - Individual Proyect (Soy Henry).
+                SPA - Proyecto individual (Soy Henry).
               </p>
             </div>
             <div className={Styles.ContainerImages}>
@@ -82,7 +212,7 @@ const Proyects = () => {
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>PF-HENRYBANK</h1>
               <p className={Styles.InfoSubtitle}>
-                App de banco - Final Proyect (Soy Henry).
+                App de banco - Proyecto final (Soy Henry).
               </p>
             </div>
             <div className={Styles.ContainerImages}>
@@ -132,7 +262,7 @@ const Proyects = () => {
             <img className={Styles.Image} src={TodoList} alt="ToDoList" />
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>NEW</h1>
-              <p className={Styles.InfoSubtitle}>SPA - ToDo List.</p>
+              <p className={Styles.InfoSubtitle}>To Do List.</p>
             </div>
             <div className={Styles.ContainerImages}>
               <img
@@ -190,7 +320,7 @@ const Proyects = () => {
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>C.A.B.J.</h1>
               <p className={Styles.InfoSubtitle}>
-                SPA - Look the better player of the CABJ history.
+                Mejores jugadores de la historia de Boca Juniors.
               </p>
             </div>
             <div className={Styles.ContainerImages}>
@@ -224,9 +354,7 @@ const Proyects = () => {
             <img className={Styles.Image} src={climaio} alt="Clima.IO" />
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>CLIMA.IO</h1>
-              <p className={Styles.InfoSubtitle}>
-                SPA - Look the weather in real time.
-              </p>
+              <p className={Styles.InfoSubtitle}>Clima en tiempo real.</p>
             </div>
             <div className={Styles.ContainerImages}>
               <img
@@ -263,7 +391,7 @@ const Proyects = () => {
             />
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>Vajillas Elian</h1>
-              <p className={Styles.InfoSubtitle}>SPA - Crockery shop.</p>
+              <p className={Styles.InfoSubtitle}>Casa de vajillas.</p>
             </div>
             <div className={Styles.ContainerImages}>
               <img
@@ -279,7 +407,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://gabrielcordoba.vercel.app/"
+                href="https://vajillaselian.vercel.app/"
               >
                 Deploy
               </a>
@@ -296,7 +424,7 @@ const Proyects = () => {
             <img className={Styles.Image} src={portfolio} alt="Portfolio" />
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>PORTFOLIO</h1>
-              <p className={Styles.InfoSubtitle}>SPA - Personal portfolio.</p>
+              <p className={Styles.InfoSubtitle}>Portafolio personal.</p>
             </div>
             <div className={Styles.ContainerImages}>
               <img
@@ -312,7 +440,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://github.com/cor2ba/Portfolio"
+                href="https://gabrielcordoba.vercel.app/"
               >
                 Deploy
               </a>
