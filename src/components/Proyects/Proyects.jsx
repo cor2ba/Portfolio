@@ -26,6 +26,8 @@ import storybook from "../../images/storybook.png";
 import components from "../../images/components.png";
 import mapify from "../../images/mapify.png";
 import calendar from "../../images/calendar.png";
+import drumkit from "../../images/DrumKit.png";
+import quickquiz from "../../images/QuickQuiz.png"
 
 const Proyects = () => {
   let color = "Proyects";
@@ -35,6 +37,66 @@ const Proyects = () => {
       <h1 className={Styles.Title}>Projects</h1>
       <div className={Styles.Container}>
         <div className={Styles.ContainerProyects}>
+        <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={quickquiz} alt="Quick Quiz" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Quick Quiz</h1>
+              <p className={Styles.InfoSubtitle}>
+                Juego de preguntas rapidas.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img className={Styles.ImageTechnology} src={javascript} alt="JavaScript" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="quickquizgame.vercel.app/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Quick-Quiz"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={drumkit} alt="DrumKit" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Drum Kit</h1>
+              <p className={Styles.InfoSubtitle}>
+                Kit de sonidos de bateria.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img className={Styles.ImageTechnology} src={javascript} alt="JavaScript" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="cor2ba.github.io/Drum-Kit/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Drum-Kit"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={calendar} alt="Calendar" />
             <div className={Styles.ContainerInvisible}>
@@ -64,13 +126,14 @@ const Proyects = () => {
               />
             </div>
             <div className={Styles.ContainerButtons}>
-              <a
+              <button
                 className={Styles.Link}
-                Target="_blank"
-                href="https://github.com/cor2ba/PWA-Calendar"
+                onClick={() => alert("Cooming soon")}
+                // Target="_blank"
+                // href="https://better-players-cabj.vercel.app/"
               >
                 Deploy
-              </a>
+              </button>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -107,7 +170,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://strong-heliotrope-4c8847.netlify.app/"
+                href="https://map-ify.netlify.app/"
               >
                 Deploy
               </a>
