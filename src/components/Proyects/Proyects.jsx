@@ -54,7 +54,7 @@ const Proyects = () => {
               <button
                 className={Styles.Link}
                 Target="_blank"
-                href="quickquizgame.vercel.app/"
+                href="https://quickquizgame.vercel.app/"
               >
                 Deploy
               </button>
@@ -84,7 +84,7 @@ const Proyects = () => {
               <button
                 className={Styles.Link}
                 Target="_blank"
-                href="cor2ba.github.io/Drum-Kit/"
+                href="https://cor2ba.github.io/Drum-Kit/"
               >
                 Deploy
               </button>
