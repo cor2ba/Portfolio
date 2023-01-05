@@ -24,6 +24,8 @@ import angular from "../../images/angular.png";
 import mongodb from "../../images/mongodb.png";
 import mongoose from "../../images/mongoose.jpg";
 import typescript from "../../images/Typescript_logo_2020.svg.png"
+import vercel from "../../images/vercel.png"
+import railway from "../../images/railway.png"
 
 const LanguagesAndTools = () => {
   let color = "LanguagesAndTools";
@@ -132,6 +134,14 @@ const LanguagesAndTools = () => {
         <div className={Styles.Technology}>
           <img className={Styles.Image} src={trello} alt="Trello"></img>
           <h1 className={Styles.TitleTechnology}>Trello</h1>
+        </div>
+        <div className={Styles.Technology}>
+          <img className={Styles.Image} src={vercel} alt="Vercel"></img>
+          <h1 className={Styles.TitleTechnology}>Vercel</h1>
+        </div>
+        <div className={Styles.Technology}>
+          <img className={Styles.Image} src={railway} alt="Railway"></img>
+          <h1 className={Styles.TitleTechnology}>Railway</h1>
         </div>
       </div>
     </div>

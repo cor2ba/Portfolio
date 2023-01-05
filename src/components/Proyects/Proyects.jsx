@@ -27,7 +27,14 @@ import components from "../../images/components.png";
 import mapify from "../../images/mapify.png";
 import calendar from "../../images/calendar.png";
 import drumkit from "../../images/DrumKit.png";
-import quickquiz from "../../images/QuickQuiz.png"
+import quickquiz from "../../images/QuickQuiz.png";
+import fasheone from "../../images/Fasheone.png";
+import customvideo from "../../images/CustomVideo.png";
+import flexpanels from "../../images/FlexPanels.png";
+import clock from "../../images/Clock.png";
+import updateccsvariables from "../../images/UpdateCSSVarieables.png";
+import typeahead from "../../images/TypeAhead.png";
+import landinghb from "../../images/LandingHB.png";
 
 const Proyects = () => {
   let color = "Proyects";
@@ -37,46 +44,19 @@ const Proyects = () => {
       <h1 className={Styles.Title}>Projects</h1>
       <div className={Styles.Container}>
         <div className={Styles.ContainerProyects}>
-        <div className={Styles.Proyect}>
-            <img className={Styles.Image} src={quickquiz} alt="Quick Quiz" />
-            <div className={Styles.ContainerInvisible}>
-              <h1 className={Styles.InfoTitle}>Quick Quiz</h1>
-              <p className={Styles.InfoSubtitle}>
-                Juego de preguntas rapidas.
-              </p>
-            </div>
-            <div className={Styles.ContainerImages}>
-              <img className={Styles.ImageTechnology} src={javascript} alt="JavaScript" />
-              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
-              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
-            </div>
-            <div className={Styles.ContainerButtons}>
-              <button
-                className={Styles.Link}
-                Target="_blank"
-                href="https://quickquizgame.vercel.app/"
-              >
-                Deploy
-              </button>
-              <a
-                className={Styles.Link}
-                Target="_blank"
-                href="https://github.com/cor2ba/Quick-Quiz"
-              >
-                Repository
-              </a>
-            </div>
-          </div>
           <div className={Styles.Proyect}>
-            <img className={Styles.Image} src={drumkit} alt="DrumKit" />
+            <img className={Styles.Image} src={fasheone} alt="Fasheone" />
             <div className={Styles.ContainerInvisible}>
-              <h1 className={Styles.InfoTitle}>Drum Kit</h1>
-              <p className={Styles.InfoSubtitle}>
-                Kit de sonidos de bateria.
-              </p>
+              <h1 className={Styles.InfoTitle}>Fasheone</h1>
+              <p className={Styles.InfoSubtitle}>E-Commerce Template.</p>
             </div>
             <div className={Styles.ContainerImages}>
-              <img className={Styles.ImageTechnology} src={javascript} alt="JavaScript" />
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
               <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
@@ -84,19 +64,20 @@ const Proyects = () => {
               <button
                 className={Styles.Link}
                 Target="_blank"
-                href="https://cor2ba.github.io/Drum-Kit/"
+                href="https://fasheone.vercel.app/"
               >
                 Deploy
               </button>
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://github.com/cor2ba/Drum-Kit"
+                href="https://github.com/cor2ba/Fasheone"
               >
                 Repository
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={calendar} alt="Calendar" />
             <div className={Styles.ContainerInvisible}>
@@ -143,6 +124,7 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={mapify} alt="Mapify" />
             <div className={Styles.ContainerInvisible}>
@@ -183,6 +165,7 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={components} alt="Components" />
             <div className={Styles.ContainerInvisible}>
@@ -223,6 +206,7 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pi} alt="pi" />
             <div className={Styles.ContainerInvisible}>
@@ -270,6 +254,7 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={pf} alt="pi" />
             <div className={Styles.ContainerInvisible}>
@@ -321,11 +306,48 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={landinghb} alt="Landing HB" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Landing HB</h1>
+              <p className={Styles.InfoSubtitle}>
+                Landing de Henry Bank - Proyecto final (Soy Henry).
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={react} alt="React" />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://henrybank.netlify.app/"
+              >
+                Deploy
+              </a>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/LandingWeb-HenryApp"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={TodoList} alt="ToDoList" />
             <div className={Styles.ContainerInvisible}>
               <h1 className={Styles.InfoTitle}>NEW</h1>
-              <p className={Styles.InfoSubtitle}>To Do List.</p>
+              <p className={Styles.InfoSubtitle}>Todo List.</p>
             </div>
             <div className={Styles.ContainerImages}>
               <img
@@ -374,6 +396,7 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img
               className={Styles.Image}
@@ -413,6 +436,7 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={climaio} alt="Clima.IO" />
             <div className={Styles.ContainerInvisible}>
@@ -446,6 +470,7 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
           <div className={Styles.Proyect}>
             <img
               className={Styles.Image}
@@ -483,6 +508,252 @@ const Proyects = () => {
               </a>
             </div>
           </div>
+
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={quickquiz} alt="Quick Quiz" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Quick Quiz</h1>
+              <p className={Styles.InfoSubtitle}>Juego de preguntas rapidas.</p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="https://quickquizgame.vercel.app/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Quick-Quiz"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={drumkit} alt="DrumKit" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Drum Kit</h1>
+              <p className={Styles.InfoSubtitle}>Kit de sonidos de bateria.</p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="https://cor2ba.github.io/Drum-Kit/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Drum-Kit"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          <div className={Styles.Proyect}>
+            <img
+              className={Styles.Image}
+              src={customvideo}
+              alt="Custom Video"
+            />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Custom Video</h1>
+              <p className={Styles.InfoSubtitle}>Video manipulable.</p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="https://cor2ba.github.io/Custom-Video-Player/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Custom-Video-Player"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={flexpanels} alt="Flex Panels" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Flex Panels</h1>
+              <p className={Styles.InfoSubtitle}>
+                Galeria de imágenes con estilos animados.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="https://cor2ba.github.io/Flex-Panels/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Flex-Panels"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={clock} alt="Clock" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Clock</h1>
+              <p className={Styles.InfoSubtitle}>
+                Visualizar la hora en tiempo real.
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="https://cor2ba.github.io/Clock/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Clock"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          <div className={Styles.Proyect}>
+            <img className={Styles.Image} src={typeahead} alt="Type Ahead" />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>Type Ahead</h1>
+              <p className={Styles.InfoSubtitle}>
+                Filtrar cuidades y saber población (USA).
+              </p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="https://cor2ba.github.io/Type-Ahead/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Type-Ahead"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
+          <div className={Styles.Proyect}>
+            <img
+              className={Styles.Image}
+              src={updateccsvariables}
+              alt="Type Ahead"
+            />
+            <div className={Styles.ContainerInvisible}>
+              <h1 className={Styles.InfoTitle}>CSS Variables</h1>
+              <p className={Styles.InfoSubtitle}>Imágen manipulable.</p>
+            </div>
+            <div className={Styles.ContainerImages}>
+              <img
+                className={Styles.ImageTechnology}
+                src={javascript}
+                alt="JavaScript"
+              />
+              <img className={Styles.ImageTechnology} src={html5} alt="HTML5" />
+              <img className={Styles.ImageTechnology} src={css} alt="CSS" />
+            </div>
+            <div className={Styles.ContainerButtons}>
+              <button
+                className={Styles.Link}
+                Target="_blank"
+                href="https://cor2ba.github.io/Update-CSS-Variables/"
+              >
+                Deploy
+              </button>
+              <a
+                className={Styles.Link}
+                Target="_blank"
+                href="https://github.com/cor2ba/Update-CSS-Variables"
+              >
+                Repository
+              </a>
+            </div>
+          </div>
+
           <div className={Styles.Proyect}>
             <img className={Styles.Image} src={portfolio} alt="Portfolio" />
             <div className={Styles.ContainerInvisible}>
