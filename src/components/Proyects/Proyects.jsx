@@ -61,13 +61,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://fasheone.vercel.app/"
+                href="https://fasheone.vercel.app"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -329,7 +329,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://henrybank.netlify.app/"
+                href="https://henrybank.netlify.app"
               >
                 Deploy
               </a>
@@ -383,7 +383,7 @@ const Proyects = () => {
                 className={Styles.Link}
                 onClick={() => alert("Cooming soon")}
                 // Target="_blank"
-                // href="https://better-players-cabj.vercel.app/"
+                // href="https://better-players-cabj.vercel.app"
               >
                 Deploy
               </button>
@@ -423,7 +423,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://better-players-cabj.vercel.app/"
+                href="https://better-players-cabj.vercel.app"
               >
                 Deploy
               </a>
@@ -457,7 +457,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://climaio.vercel.app/"
+                href="https://climaio.vercel.app"
               >
                 Deploy
               </a>
@@ -495,7 +495,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://vajillaselian.vercel.app/"
+                href="https://vajillaselian.vercel.app"
               >
                 Deploy
               </a>
@@ -525,13 +525,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://quickquizgame.vercel.app/"
+                href="https://quickquizgame.vercel.app"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -558,13 +558,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://cor2ba.github.io/Drum-Kit/"
+                href="https://cor2ba.github.io/Drum-Kit"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -595,13 +595,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://cor2ba.github.io/Custom-Video-Player/"
+                href="https://cor2ba.github.io/Custom-Video-Player"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -630,13 +630,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://cor2ba.github.io/Flex-Panels/"
+                href="https://cor2ba.github.io/Flex-Panels"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -665,13 +665,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://cor2ba.github.io/Clock/"
+                href="https://cor2ba.github.io/Clock"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -700,13 +700,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://cor2ba.github.io/Type-Ahead/"
+                href="https://cor2ba.github.io/Type-Ahead"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -737,13 +737,13 @@ const Proyects = () => {
               <img className={Styles.ImageTechnology} src={css} alt="CSS" />
             </div>
             <div className={Styles.ContainerButtons}>
-              <button
+              <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://cor2ba.github.io/Update-CSS-Variables/"
+                href="https://cor2ba.github.io/Update-CSS-Variables"
               >
                 Deploy
-              </button>
+              </a>
               <a
                 className={Styles.Link}
                 Target="_blank"
@@ -774,7 +774,7 @@ const Proyects = () => {
               <a
                 className={Styles.Link}
                 Target="_blank"
-                href="https://gabrielcordoba.vercel.app/"
+                href="https://gabrielcordoba.vercel.app"
               >
                 Deploy
               </a>
