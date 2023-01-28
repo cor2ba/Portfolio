@@ -1,0 +1,44 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 95vh;
+}
+
+.Title {
+  font-size: 50px;
+  text-align: center;
+  font-family: Sans-Serif;
+}
+
+.Paragraphs {
+  font-size: 25px;
+  text-align: center;
+  width: 75%;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.MeImage {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.Certificate {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  align-self: center;
+  font-size: 20px;
+  background-color: #5b2c6f;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  border: 1px solid #fff;
+  font-family: Sans-Serif;
+  margin-bottom: 30px
+}

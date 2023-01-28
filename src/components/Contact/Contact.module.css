@@ -1,0 +1,49 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 75vh;
+  align-items: center;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  margin: 40px;
+  border: 1px solid #fff;
+  background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
+}
+
+.Contact:hover {
+  transform: scale(1.05);
+  background: linear-gradient(145deg, #000 0%, #5b2c6f 100%);
+}
+
+.Title {
+  font-size: 50px;
+  text-align: center;
+  font-family: Sans-Serif;
+}
+
+.Image {
+  width: 200px;
+  height: 200px;
+}
+
+.Link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Subtitle {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}

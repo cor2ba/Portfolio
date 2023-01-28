@@ -1,0 +1,143 @@
+.Container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  max-width: 100vw;
+  box-shadow: 0 0 5px #5b2c6f;
+  min-height: 5vh;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.ContainerResponsive {
+  display: none;
+}
+
+.NavsText {
+  font-size: 18px;
+  color: #fff;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+.NavsText::after {
+  content: "";
+  display: block;
+  background-color: #5b2c6f;
+  width: 100%;
+  height: 3px;
+  clip-path: var(--clippy);
+  transition: clip-path 0.5s;
+}
+
+.NavsText:hover {
+  font-size: 18px;
+  color: #5b2c6f;
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.NavsTextClicked {
+  font-size: 18px;
+  color: #5b2c6f;
+  transition: clip-path 0.5s;
+  font-family: Sans-Serif;
+  font-weight: bold;
+}
+
+.NavsTextClicked::after {
+  content: "";
+  display: block;
+  background-color: #5b2c6f;
+  width: 100%;
+  height: 3px;
+  clip-path: var(--clippy);
+  transition: clip-path 0.5s;
+}
+
+.NavsTextClicked:hover {
+  font-size: 18px;
+  color: #5b2c6f;
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 1000px) {
+  .Container {
+    display: none;
+  }
+
+  .ContainerResponsive {
+    display: flex;
+    min-height: 5vh;
+    box-shadow: 0 0 5px #5b2c6f;
+    background-color: transparent;
+    margin-bottom: 25px;
+  }
+
+  .NavsTextClicked {
+    font-size: 40px;
+  }
+
+  .NavsText {
+    font-size: 40px;
+  }
+
+  .NavsText:hover {
+    font-size: 40px;
+  }
+
+  .Menu {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    background-color: #0a000e;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    clip-path: circle(0 at center);
+    z-index: 1;
+    transition: clip-path 1s ease-in-out;
+  }
+
+  .MenuImg {
+    display: flex;
+    position: absolute;
+    height: 5vh;
+    right: 0;
+    padding-right: 0;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .Img {
+    width: 45px;
+    height: 45px;
+    background-color: #5b2c6f;
+    border-radius: 50px;
+  }
+
+  .NavInput {
+    display: none;
+  }
+
+  .NavInput:checked + .Menu {
+    clip-path: circle(100% at center);
+  }
+
+  .NavsResponsive {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+  }
+}

@@ -1,0 +1,144 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+.ContainerProyects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 75px;
+  padding: 0px 0px 40px 0px;
+  margin: 50px;
+}
+
+.ContainerButtons {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  align-self: center;
+  gap: 20px;
+}
+
+.Proyect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
+  width: 330px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  gap: 30px;
+}
+
+.Proyect:hover {
+  background: linear-gradient(145deg, #000 0%, #5b2c6f 100%);
+  transform: scale(1.05);
+}
+
+.Proyect:hover a {
+  color: #fff;
+  background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
+  border: 1px solid #fff;
+}
+
+.Proyect:hover button {
+  color: #fff;
+  background: linear-gradient(145deg, #5b2c6f 0%, #000 100%);
+  border: 1px solid #fff;
+}
+
+.Title {
+  font-size: 50px;
+  text-align: center;
+  font-family: Sans-Serif;
+}
+
+.Image {
+  height: 200px;
+  width: 330px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+.ContainerInvisible {
+  position: absolute;
+  height: 202px;
+  width: 333px;
+  overflow: hidden;
+  text-align: center;
+  visibility: hidden;
+  background-color: transparent;
+  opacity: 0;
+  visibility: hidden;
+  margin: 0%;
+  border-radius: 20px;
+}
+
+.Proyect:hover > .ContainerInvisible {
+  opacity: 1;
+  visibility: visible;
+  background-color: rgba(0, 0, 0, 0.647);
+  transition: all 1000ms ease-out;
+}
+.Proyect:hover > .ContainerInvisible h1 {
+  color: #fff;
+  margin-top: 50px;
+  transition: all 1000ms ease-out;
+}
+
+.Proyect:hover > .ContainerInvisible p {
+  color: #fff;
+  margin-top: 40px;
+  transition: all 1000ms ease-out;
+}
+
+.InfoTitle {
+  font-size: 35px;
+  font-family: Sans-Serif;
+  color: transparent;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.InfoSubtitle {
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: transparent;
+}
+
+.ImageTechnology {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(253, 224, 224);
+  border-radius: 20px;
+}
+
+.ContainerImages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.Link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  width: auto;
+  background: linear-gradient(145deg, #000 0%, #5b2c6f 100%);
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}

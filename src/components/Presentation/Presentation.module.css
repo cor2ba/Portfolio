@@ -1,0 +1,79 @@
+.Container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 75px;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.MeImage {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  align-self: center;
+  background-color: #5b2c6f;
+}
+
+.Title {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 2s;
+}
+
+.Title2 {
+  font-size: 80px;
+  color: #5b2c6f;
+  text-align: center;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.Title2::after {
+  content: "";
+  display: block;
+  background-color: #5b2c6f;
+  width: 100%;
+  margin-top: 1px;
+  height: 5px;
+  clip-path: var(--clippy);
+  transition: clip-path 0.5s;
+}
+
+.Title2:hover {
+  --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.Subtitle {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-family: Sans-Serif;
+}
+
+.CV {
+  font-size: 20px;
+  background-color: #5b2c6f;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  border: 1px solid #fff;
+  font-family: Sans-Serif;
+}
