@@ -18,16 +18,15 @@ const Presentation = () => {
           strings={[
             "Full Stack Developer",
             "Front End Developer",
-            "Back End Developer",
           ]}
-          typeSpeed={120}
-          backSpeed={140}
+          typeSpeed={150}
+          backSpeed={150}
           loop
         />
         <a
           className={Styles.CV}
           Target="_blank"
-          href="https://drive.google.com/file/d/1ues0NTvacqKbJau7R8sLJJjqboS8w_zd/view"
+          href="https://drive.google.com/file/d/1hSSfv_Oyk4wINkqYXEaecbV0EaFbgf7n/view?usp=sharing"
         >
           DOWNLOAD MY CV
         </a>

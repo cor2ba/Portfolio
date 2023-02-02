@@ -8,7 +8,7 @@ const Proyects = () => {
   return (
     <div>
       <NavBar color={color} />
-      <h1 className={Styles.Title}>Projects</h1>
+      <h1 data-aos="zoom-in" className={Styles.Title}>Projects</h1>
       <div className={Styles.Container}>
         <div className={Styles.ContainerProyects}>
           {arrP.map((tech) => (

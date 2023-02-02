@@ -8,7 +8,9 @@ const AboutMe = () => {
     <div>
       <NavBar color={color} />
       <div className={Styles.Container}>
-        <h1 data-aos="fade-left" className={Styles.Title}>About Me</h1>
+        <h1 data-aos="zoom-in" className={Styles.Title}>
+          About Me
+        </h1>
         <p data-aos="fade-right" className={Styles.Paragraphs}>
           I live in Argentina, Buenos Aires 💙🤍💙. I graduated of Full-Stack
           developer web in Henry Bootcamp 💻.
@@ -18,17 +20,15 @@ const AboutMe = () => {
           like to waste it, what makes me proactive 🤖, I like team work and
           create a good work environment with colleagues 🤝🏾.
         </p>
-        <p data-aos="fade-right" className={Styles.Paragraphs}>
-          I am currently looking for a job 🧐, I would like a job where I can
-          expand my programming knowledge and work from home 🏠.
-        </p>
         <p data-aos="fade-left" className={Styles.Paragraphs}>
           I am a E-Sports and Sports lover 😻. I really like the videogames like
           Counter-Strike or League of Legends 🎮 and in my free times play
           Bascketball or Football ⚽🏀.
         </p>
+        <p data-aos="fade-right" className={Styles.Paragraphs}>
+        I am currently working at CrESI as a full stack developer 📈.
+        </p>
         <a
-          data-aos="fade-right"
           className={Styles.Certificate}
           Target="_blank"
           href="https://certificates.soyhenry.com/cert?id=d8d54cb0-1a66-4aa5-9e23-61d889125069"

@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div>
       <NavBar color={color} />
-      <h1 className={Styles.Title}>Contact</h1>
+      <h1 data-aos="zoom-in" className={Styles.Title}>Contact</h1>
       <div className={Styles.Container}>
         <a
           data-aos="fade-right"
