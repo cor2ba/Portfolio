@@ -28,7 +28,7 @@ const Presentation = () => {
           Target="_blank"
           href="https://drive.google.com/file/d/1hSSfv_Oyk4wINkqYXEaecbV0EaFbgf7n/view?usp=sharing"
         >
-          DOWNLOAD MY CV
+          LOOK AT MY CV
         </a>
       </div>
     </div>
