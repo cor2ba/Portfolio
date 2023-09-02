@@ -43,7 +43,7 @@
   min-width: 175px;
   max-height: 175px;
   max-width: 175px;
-  background-color: rgb(219, 219, 219);
+  /* background-color: rgb(219, 219, 219); */
   border-radius: 20px;
   padding: 10px;
 }

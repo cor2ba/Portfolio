@@ -14,7 +14,7 @@ import node from "../../images/nodejs.png";
 import bettersplayerscabj from "../../images/bettersplayerscabj.png";
 import climaio from "../../images/clima-io.png";
 import mongodb from "../../images/mongodb.png";
-import mongoose from "../../images/mongoose.jpg";
+import mongoose from "../../images/mongoose.png";
 import typescript from "../../images/typescript.svg";
 import mapbox from "../../images/mapbox.svg";
 import storybook from "../../images/storybook.svg";

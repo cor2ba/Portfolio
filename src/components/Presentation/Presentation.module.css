@@ -25,6 +25,12 @@
   background-color: #5b2c6f;
 }
 
+.Titles {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
 .Title {
   font-size: 80px;
   color: #fff;
@@ -32,6 +38,7 @@
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   transition: 2s;
+  margin: 0px;
 }
 
 .Title2 {
@@ -41,6 +48,7 @@
   font-weight: 800;
   font-family: Arial, Helvetica, sans-serif;
   --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  margin: 0px;
 }
 
 .Title2::after {

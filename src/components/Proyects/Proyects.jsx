@@ -16,7 +16,7 @@ const Proyects = () => {
               <img className={Styles.Image} src={tech.image} alt={tech.name} />
               <div className={Styles.ContainerInvisible}>
                 <h1 className={Styles.InfoTitle}>{tech.name}</h1>
-                <p className={Styles.InfoSubtitle}>{tech.name}</p>
+                <p className={Styles.InfoSubtitle}>{tech.subtitle}</p>
               </div>
               <div className={Styles.ContainerImages}>
                 {tech.techs.map((tech) => (
